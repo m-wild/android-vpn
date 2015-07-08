@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VPN</string>
+
+    <string name="key_shared_prefs">me.mwild.vpn.KEY_SHARED_PREFS</string>
+</resources>
