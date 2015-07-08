@@ -1,8 +1,15 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+
+    <style name="AppTheme" parent="Base.AppTheme">
+        <!-- only add pre-api19 styling here -->
+    </style>
+
+
+    <style name="Base.AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="colorAccent">@color/accent</item>-->
+        <!--<item name="colorPrimary">@color/primary</item>-->
+        <!--<item name="colorPrimaryDark">@color/primary_dark</item>-->
     </style>
 
 </resources>

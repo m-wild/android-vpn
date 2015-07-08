@@ -8,10 +8,12 @@ import dagger.Module;
 import dagger.Provides;
 import me.mwild.vpn.VpnApp;
 import me.mwild.vpn.data.DataModule;
+import me.mwild.vpn.ui.UiModule;
 
 @Module(
         includes = {
-                DataModule.class
+                DataModule.class,
+                UiModule.class
         },
         injects = {
                 VpnApp.class

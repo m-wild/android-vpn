@@ -14,7 +14,7 @@ import me.mwild.vpn.R;
         complete = false,
         library = true
 )
-public class DataModule {
+public final class DataModule {
 
     @Provides @Singleton
     SharedPreferences provideSharedPreferences(Application app) {
